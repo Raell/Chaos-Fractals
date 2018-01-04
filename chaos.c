@@ -529,8 +529,6 @@ int main(int n, char *argv[n]) {
 	
 	int s = (restrictions != NULL) ? size(restrictions) : 0;
 	
-	printf("%d\n", s);
-	
 	iteratePoints(d, corners, s);
 	
 	key(d);
