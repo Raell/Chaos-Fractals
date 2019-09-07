@@ -8,6 +8,9 @@ Of course we could vary the different parameters to result in widely different f
 
 More details about the parameters and examples are below.
 
+## Dependencies
+```libsdl2-dev``` for rendering the fractals
+
 ## Parameters
 
 **Usage:**
