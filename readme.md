@@ -1,4 +1,4 @@
-Chaos Fractal Generator:
+#Chaos Fractal Generator
 
 This is a fractal generator which can generate many different patterns given different patterns. The idea behind this is that the fractals are generated randomly and dynamically using Chaos Game (https://en.wikipedia.org/wiki/Chaos_game). 
 (Also some of the parameters I used are referenced from http://math.bu.edu/DYSYS/chaos-game/chaos-game.html). 
@@ -9,7 +9,7 @@ Of course we could vary the different parameters to result in widely different f
 
 More details about the parameters and examples are below.
 
-------HELPMENU------
+##Parameters
 
 Usage: ./chaos [-c corners] [-f magfactor] [-s scale] [-i iterations] [-r a[,b,...,n]] [-a] [(-j delimitedset | -n delimitedset) [-x]] [-h]
 
@@ -82,9 +82,9 @@ Amount to scale final image (i.e 2 = image is 2x size)
  Open this help menu
  
  
- ------Examples------
- I've prepared some interesting fractals here to test and generate, just copy and paste the entire line:
- 
+##Examples
+I've prepared some interesting fractals here to test and generate
+
 (Sierpinski Triangle)
 ./chaos -g
  
